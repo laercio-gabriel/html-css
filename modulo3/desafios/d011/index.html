@@ -9,9 +9,17 @@
         *{
             margin: 0;
         }
+
+       main{
+           min-width: 200px;
+           max-width: 1550px;
+           margin: auto;
+       }
+
         div#espaço{
             background-image: url("imagens/espaco.jpg");
             background-size: cover;
+            background-position: center center;
             width: 100vw;
             height: 100vh;
          }
@@ -20,8 +28,8 @@
             background-image: url("imagens/astronauta.png");
             background-size: 100% 100%;
 
-            height: 200px;
-            width: 400px;
+            height: 50vh;
+            width: 50vh;
 
             left: 50%;
             top: 50%;
@@ -30,12 +38,13 @@
          }
     </style>
 <body>
-
-    <div id="espaço">
+    <main>
+        <div id="espaço">
 
         <div id="astronauta"></div>
 
-    </div>
+        </div>
+    </main>
     
 </body>
 </html>
