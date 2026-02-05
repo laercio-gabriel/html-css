@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de iframe</title>
+    <style>
+        iframe{
+           width: 100vh;
+           height: 400px;
+           border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis quia vel iusto fuga architecto repellendus molestias delectus aliquid provident sequi fugiat minus ipsa neque, odit veritatis eum unde placeat deserunt?</p>
+
+    <ul>
+        <li><a href="teste.html" target="frame">Primeira página</a></li>
+        <li><a href="iframe001.html" target="frame">Segunda página</a></li>
+        <li><a href="iframe002.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ratione rem, exercitationem sit fuga quam, incidunt rerum, quidem animi unde consectetur! Maxime temporibus magni aut? Eligendi quos accusamus voluptates in.</p>
+
+    <!--srcdoc serve para carregar previamente algum conteúdo no iframe-->
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla neque porro perspiciatis in nihil doloremque et! Esse quo neque iusto! Voluptates architecto deserunt iure unde nesciunt accusamus laboriosam, iste dicta?</p>"></iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo nisi delectus corrupti illum, iusto soluta commodi temporibus qui nam voluptas iste consequatur architecto quasi! Delectus in nihil corrupti hic dolore.</p>
+
+</body>
+</html>
